@@ -14,6 +14,8 @@
 		3F894D3D2184BE4A00049FEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F894D3B2184BE4A00049FEC /* LaunchScreen.storyboard */; };
 		3F894D482184BE4A00049FEC /* TinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F894D472184BE4A00049FEC /* TinderTests.swift */; };
 		3F894D532184BE4A00049FEC /* TinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F894D522184BE4A00049FEC /* TinderUITests.swift */; };
+		85B219CA218695C700D433A5 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B219C9218695C700D433A5 /* CardsViewController.swift */; };
+		85B219CC2186A81200D433A5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B219CB2186A81200D433A5 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3F894D4E2184BE4A00049FEC /* TinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F894D522184BE4A00049FEC /* TinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderUITests.swift; sourceTree = "<group>"; };
 		3F894D542184BE4A00049FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85B219C9218695C700D433A5 /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		85B219CB2186A81200D433A5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				3F894D392184BE4A00049FEC /* Assets.xcassets */,
 				3F894D3B2184BE4A00049FEC /* LaunchScreen.storyboard */,
 				3F894D3E2184BE4A00049FEC /* Info.plist */,
+				85B219C9218695C700D433A5 /* CardsViewController.swift */,
+				85B219CB2186A81200D433A5 /* ProfileViewController.swift */,
 			);
 			path = Tinder;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			files = (
 				3F894D352184BE4200049FEC /* ViewController.swift in Sources */,
 				3F894D332184BE4200049FEC /* AppDelegate.swift in Sources */,
+				85B219CC2186A81200D433A5 /* ProfileViewController.swift in Sources */,
+				85B219CA218695C700D433A5 /* CardsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
